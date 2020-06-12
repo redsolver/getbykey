@@ -1,0 +1,6 @@
+name: getbykey
+description: A simple extension to get an element in a list by it's key or id.
+version: 1.0.0
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
