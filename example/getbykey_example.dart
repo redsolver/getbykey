@@ -6,7 +6,8 @@ class User {
 
   User({this.id, this.name});
 
-  String get $key => id; // Add the `$key` getter to your class. In this example class the `id` is the key
+  String get $key =>
+      id; // Add the `$key` getter to your class. In this example class the `id` is the key
 
   @override
   String toString() => 'User{name: $name}';
